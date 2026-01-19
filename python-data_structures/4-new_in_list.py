@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+def new_in_list(my_list, idx, element):
+    new_list = []
+    for x in my_list:
+        new_list.append(x)
+
+    if idx < 0:
+        return new_list
+
+    count = 0
+    for i in new_list:
+        count += 1
+
+    if idx >= count:
+        return new_list
+
+    new_list[idx] = element
+    return new_list
