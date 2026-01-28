@@ -21,6 +21,7 @@ class Square:
         self.__size = size
 
     def area(self):
+
         """Retourne l'aire du carré
 
         Returns:
