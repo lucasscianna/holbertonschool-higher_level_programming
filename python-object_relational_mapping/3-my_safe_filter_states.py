@@ -28,8 +28,6 @@ def safe_filter_states():
 
         cursor = db.cursor()
 
-        # Le secret : on utilise %s comme placeholder et on passe
-        # la variable dans un tuple comme second argument de execute()
         query = "SELECT * FROM states WHERE name = %s ORDER BY id ASC"
         cursor.execute(query, (state_searched,))
 
