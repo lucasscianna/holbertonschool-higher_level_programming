@@ -7,7 +7,7 @@ if __name__ == "__main__":
     """Connect to the DB the command line arguments"""
     db = MySQLdb.connect(
         host="localhost",
-        port=3306,
+        port=3310,
         user=sys.argv[1],
         passwd=sys.argv[2],
         db=sys.argv[3]
