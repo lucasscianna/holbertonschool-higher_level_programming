@@ -43,22 +43,6 @@ By the end of this project, you should be able to explain, without any external 
 | Data sources | JSON, CSV, SQLite |
 | Rendering | Server-side only |
 
----
-
-## Project Structure
-```
-python-server_side_rendering/
-├── app.py                  # Main Flask application
-├── templates/              # Jinja2 HTML templates
-│   ├── index.html
-│   └── ...
-├── static/                 # Static files (CSS, JS, images)
-├── data/                   # Data files (JSON, CSV, SQLite)
-│   ├── data.json
-│   ├── data.csv
-│   └── database.db
-└── README.md
-```
 
 ---
 
